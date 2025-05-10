@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz">
+            <h1>Interactive Quiz</h1>
+            <div id="start-screen" class="screen">
+                <h2>Welcome to the Quiz!</h2>
+                <p>Select a category to begin:</p>
+                <div id="categories-container">
+                    <button class="category-btn" data-category="general">General Knowledge</button>
+                    <button class="category-btn" data-category="science">Science</button>
+                    <button class="category-btn" data-category="history">History</button>
+                    <button class="category-btn" data-category="geography">Geography</button>
+                    <button class="category-btn" data-category="sports">Sports</button>
+                </div>
+            </div>
+            <div id="difficulty-screen" class="screen hidden">
+                <h2>Select Difficulty</h2>
+                <p>Category: <span id="selected-category"></span></p>
+                <div id="difficulty-container">
+                    <button class="difficulty-btn" data-difficulty="easy">Easy</button>
+                    <button class="difficulty-btn" data-difficulty="medium">Medium</button>
+                    <button class="difficulty-btn" data-difficulty="hard">Hard</button>
+                </div>
+                <button id="back-to-categories" class="secondary-btn">Back to Categories</button>
+            </div>
+            <div id="question-screen" class="screen hidden">
+                <div class="quiz-header">
+                    <div class="quiz-info">
+                        <h2 id="category-display"></h2>
+                        <p class="difficulty-display">Difficulty: <span id="current-difficulty"></span></p>
+                    </div>
+                    <p>Question <span id="current-question-num">1</span> of <span id="total-questions">0</span></p>
+                </div>
+                <h2 id="question-text"></h2>
+                <div id="options-container"></div>
+                <button id="next-btn" class="hidden">Next Question</button>
+            </div>
+            <div id="result-screen" class="screen hidden">
+                <h2>Quiz Complete!</h2>
+                <div class="result-info">
+                    <p>Category: <span id="result-category"></span></p>
+                    <p>Difficulty: <span id="result-difficulty"></span></p>
+                    <p>Your score: <span id="score">0</span> out of <span id="total-questions-result">0</span></p>
+                </div>
+                <div class="result-buttons">
+                    <button id="restart-btn">Try Another Category</button>
+                    <button id="retry-btn">Retry This Category</button>
+                    <button id="change-difficulty-btn">Change Difficulty</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
