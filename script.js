@@ -480,6 +480,92 @@ const quizData = {
                 }
             ]
         }
+    },
+       entertainment: {
+        name: "Entertainment",
+        questions: {
+            easy: [
+                {
+                    question: "Who is the main character in the 'Harry Potter' series?",
+                    options: ["Hermione Granger", "Ron Weasley", "Harry Potter", "Draco Malfoy"],
+                    correct: 2
+                },
+                {
+                    question: "Who plays Iron Man in the Marvel Cinematic Universe?",
+                    options: ["Chris Evans", "Chris Hemsworth", "Mark Ruffalo", "Robert Downey Jr."],
+                    correct: 3
+                },
+                {
+                    question: "Which movie features a friendly green ogre named Shrek?",
+                    options: ["Monsters, Inc.", "Shrek", "Toy Story", "Finding Nemo"],
+                    correct: 1
+                },
+                {
+                    question: "What is the name of Mickey Mouse's pet dog?",
+                    options: ["Goofy", "Donald", "Pluto", "Minnie"],
+                    correct: 2
+                },
+                {
+                    question: "Which British band sang the hit song 'Bohemian Rhapsody'?",
+                    options: ["The Beatles", "The Rolling Stones", "Queen", "Led Zeppelin"],
+                    correct: 2
+                }
+            ],
+            medium: [
+                {
+                    question: "Which film won the first-ever Academy Award for Best Picture?",
+                    options: ["The Jazz Singer", "Metropolis", "Wings", "Sunrise"],
+                    correct: 2
+                },
+                {
+                    question: "Who directed the classic 1994 film 'Pulp Fiction'?",
+                    options: ["Steven Spielberg", "Martin Scorsese", "James Cameron", "Quentin Tarantino"],
+                    correct: 3
+                },
+                {
+                    question: "What is the best-selling video game of all time?",
+                    options: ["Tetris", "Minecraft", "Grand Theft Auto V", "Wii Sports"],
+                    correct: 1
+                },
+                {
+                    question: "In the TV show 'Friends', what is Joey Tribbiani's famous catchphrase?",
+                    options: ["'Could I BE any more...'", "'We were on a break!'", "'Oh. My. God.'", "'How you doin'?'"],
+                    correct: 3
+                },
+                {
+                    question: "Which American artist is known as the 'King of Pop'?",
+                    options: ["Elvis Presley", "Michael Jackson", "Prince", "James Brown"],
+                    correct: 1
+                }
+            ],
+            hard: [
+                {
+                    question: "What was the first feature-length animated movie ever released?",
+                    options: ["Pinocchio", "Bambi", "Snow White and the Seven Dwarfs", "Fantasia"],
+                    correct: 2
+                },
+                {
+                    question: "Who composed the iconic musical score for the original 'Star Wars' trilogy?",
+                    options: ["Hans Zimmer", "John Williams", "Howard Shore", "Danny Elfman"],
+                    correct: 1
+                },
+                {
+                    question: "The TV series 'Game of Thrones' is primarily set on which fictional continent?",
+                    options: ["Middle-earth", "Narnia", "Westeros", "Essos"],
+                    correct: 2
+                },
+                {
+                    question: "What is the name of the fictional newspaper where Clark Kent works in 'Superman'?",
+                    options: ["The Daily Bugle", "The Gotham Gazette", "The Daily Planet", "The Central City Citizen"],
+                    correct: 2
+                },
+                {
+                    question: "In what year was the very first 'Coachella Valley Music and Arts Festival' held?",
+                    options: ["1995", "2001", "1999", "2003"],
+                    correct: 2
+                }
+            ]
+        }
     }
 };
 
