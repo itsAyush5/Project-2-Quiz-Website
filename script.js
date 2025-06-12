@@ -5,8 +5,8 @@ const quizData = {
         questions: {
             easy: [
                 {
-                    question: "Which is the most spoken language in the world?",
-                    options: ["English", "Spanish", "Mandarin", "Hindi"],
+                    question: "Which language has the most native speakers in the world?",
+                    options: ["English", "Spanish", "Mandarin Chinese", "Hindi"],
                     correct: 2
                 },
                 {
@@ -28,11 +28,27 @@ const quizData = {
                     question: "How many days are there in a leap year?",
                     options: ["365", "366", "364", "367"],
                     correct: 1
-                }
+                },
+                {
+                    question:"Who was defeated in the Third Battle of Panipat?",
+                    options:["British","Marathas","French","Mughals"],
+                    correct: 1
+                },
+                {
+                    question:"Who defeated the Marathas in the Third Battle of Panipat?",
+                    options:["British","Afghans","French","Portuguese"],
+                    correct: 1
+                },
+                {
+                    question:"Which of these powers did not rule over a significant part of India?",
+                    options:["British","Israel","French","Dutch"],
+                    correct: 1
+                },
+
             ],
             medium: [
                 {
-                    question: "What is the most popular social media platform?",
+                    question: "Which social media platform has the most monthly active users worldwide?",
                     options: ["Instagram", "Facebook", "Twitter", "TikTok"],
                     correct: 1
                 },
@@ -59,17 +75,17 @@ const quizData = {
             ],
             hard: [
                 {
-                    question: "Which year did World War I begin?",
-                    options: ["1914", "1915", "1916", "1917"],
+                    question: "In which year did World War I begin?",
+                    options: ["1914", "1918", "1939", "1945"],
                     correct: 0
                 },
                 {
-                    question: "What is the speed of light in kilometers per second (approximate)?",
-                    options: ["250,000", "300,000", "350,000", "400,000"],
+                    question: "What is the approximate speed of light in a vacuum?",
+                    options: ["150,000 km/s", "300,000 km/s", "500,000 km/s", "1,000,000 km/s"],
                     correct: 1
                 },
                 {
-                    question: "Who developed the theory of relativity?",
+                    question: "Who developed the theory of general relativity?",
                     options: ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Niels Bohr"],
                     correct: 1
                 },
@@ -106,7 +122,7 @@ const quizData = {
                     correct: 3
                 },
                 {
-                    question: "How many bones are in the human body?",
+                    question: "How many bones are in the adult human body?",
                     options: ["206", "205", "207", "208"],
                     correct: 0
                 },
@@ -114,16 +130,26 @@ const quizData = {
                     question: "What is the hardest natural substance on Earth?",
                     options: ["Gold", "Iron", "Diamond", "Platinum"],
                     correct: 2
+                },
+                {
+                    question: "A complete flower typically has how many whorls?",
+                    options: ["1", "2", "3", "4"],
+                    correct: 3
+                },
+                {
+                    question: "In which mirror is the reflecting surface curved inwards?",
+                    options: ["Concave mirror", "Convex mirror", "Plane mirror", "Concave lens"],
+                    correct: 0
                 }
             ],
             medium: [
                 {
-                    question: "What is the process by which plants make their food?",
-                    options: ["Photosynthesis", "Respiration", "Digestion", "Absorption"],
+                    question: "What is the process by which plants make their own food?",
+                    options: ["Photosynthesis", "Respiration", "Transpiration", "Germination"],
                     correct: 0
                 },
                 {
-                    question: "Which gas do plants absorb from the air?",
+                    question: "Which gas do plants absorb from the atmosphere for photosynthesis?",
                     options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
                     correct: 1
                 },
@@ -133,7 +159,7 @@ const quizData = {
                     correct: 1
                 },
                 {
-                    question: "What is the unit of measurement for force?",
+                    question: "What is the SI unit of measurement for force?",
                     options: ["Watt", "Joule", "Newton", "Pascal"],
                     correct: 2
                 },
@@ -141,38 +167,58 @@ const quizData = {
                     question: "Which blood type is known as the universal donor?",
                     options: ["A+", "B+", "AB+", "O-"],
                     correct: 3
+                },
+                {
+                    question: "Which of the following is an example of a bisexual flower (has both male and female parts)?",
+                    options: ["Cucumber", "Corn", "Petunia", "Papaya"],
+                    correct: 2
+                },
+                {
+                    question: "What is the acronym for the colors of the visible spectrum (rainbow)?",
+                    options: ["VIBGYOR", "GRVBIOY", "PORVIBG", "ROYGBIV"],
+                    correct: 0
                 }
             ],
             hard: [
                 {
-                    question: "What is the Heisenberg Uncertainty Principle?",
+                    question: "The Heisenberg Uncertainty Principle states that it is impossible to know simultaneously the exact...",
                     options: [
-                        "You can't measure position and momentum simultaneously",
-                        "Energy is constant in a closed system",
-                        "Matter cannot be created or destroyed",
-                        "Light behaves as both wave and particle"
+                        "Position and momentum of a particle",
+                        "Mass and energy of a system",
+                        "Charge and spin of an electron",
+                        "Wavelength and frequency of light"
                     ],
                     correct: 0
                 },
                 {
-                    question: "What is the half-life of Carbon-14?",
+                    question: "What is the approximate half-life of Carbon-14?",
                     options: ["4,730 years", "5,730 years", "6,730 years", "7,730 years"],
                     correct: 1
                 },
                 {
-                    question: "Which subatomic particle is not found in the nucleus?",
+                    question: "Which fundamental particle is not found in the nucleus of an atom?",
                     options: ["Proton", "Neutron", "Electron", "Quark"],
                     correct: 2
                 },
                 {
                     question: "What is the molecular formula for glucose?",
-                    options: ["C6H12O6", "C6H6O6", "C12H22O11", "C6H10O5"],
+                    options: ["C6H12O6", "C6H6O6", "C12H22O11", "CH4"],
                     correct: 0
                 },
                 {
-                    question: "What is the name of the closest galaxy to the Milky Way?",
+                    question: "What is the name of the closest major galaxy to the Milky Way?",
                     options: ["Andromeda", "Triangulum", "Centaurus A", "Sombrero"],
                     correct: 0
+                },
+                {
+                    question: "What is a change in the position of an object over time called?",
+                    options: ["Acceleration", "Velocity", "Motion","Rest"],
+                    correct: 2
+                },
+                {
+                    question: "The presence of which element's oxide gives Mars its characteristic red color?",
+                    options: ["Cobalt", "Nickel", "Iron", "Copper"],
+                    correct: 2
                 }
             ]
         }
@@ -188,7 +234,7 @@ const quizData = {
                 },
                 {
                     question: "In which year did World War II end?",
-                    options: ["1943", "1944", "1945", "1946"],
+                    options: ["1941", "1944", "1945", "1946"],
                     correct: 2
                 },
                 {
@@ -197,9 +243,9 @@ const quizData = {
                     correct: 2
                 },
                 {
-                    question: "Which ancient wonder was located in Egypt?",
-                    options: ["Hanging Gardens", "Great Pyramid", "Colossus", "Temple of Artemis"],
-                    correct: 1
+                    question: "The Great Pyramid of Giza is an ancient wonder located in which country?",
+                    options: ["Greece", "Turkey", "Egypt", "Iraq"],
+                    correct: 2
                 },
                 {
                     question: "What civilization built Machu Picchu?",
@@ -209,24 +255,24 @@ const quizData = {
             ],
             medium: [
                 {
-                    question: "When did the French Revolution begin?",
-                    options: ["1789", "1790", "1791", "1792"],
-                    correct: 0
-                },
-                {
-                    question: "Who was the first Emperor of China?",
-                    options: ["Qin Shi Huang", "Sun Yat-sen", "Kublai Khan", "Wu Zetian"],
-                    correct: 0
-                },
-                {
-                    question: "Which empire was ruled by the Ottomans?",
-                    options: ["Persian", "Roman", "Turkish", "Byzantine"],
+                    question: "The storming of the Bastille in 1789 marked the start of which revolution?",
+                    options: ["American Revolution", "Russian Revolution", "French Revolution", "Industrial Revolution"],
                     correct: 2
                 },
                 {
-                    question: "When did the Industrial Revolution begin?",
-                    options: ["Late 1700s", "Early 1800s", "Mid 1800s", "Late 1800s"],
+                    question: "Who was the first Emperor of a unified China?",
+                    options: ["Qin Shi Huang", "Sun Yat-sen", "Kublai Khan", "Mao Zedong"],
                     correct: 0
+                },
+                {
+                    question: "The Ottoman Empire was centered in what is now modern-day...",
+                    options: ["Iran", "Greece", "Turkey", "Egypt"],
+                    correct: 2
+                },
+                {
+                    question: "In which century did the Industrial Revolution primarily begin?",
+                    options: ["17th Century", "18th Century", "19th Century", "20th Century"],
+                    correct: 1
                 },
                 {
                     question: "Who was the first woman to win a Nobel Prize?",
@@ -236,18 +282,18 @@ const quizData = {
             ],
             hard: [
                 {
-                    question: "Which battle ended the Wars of the Roses?",
+                    question: "Which battle in 1485 effectively ended the Wars of the Roses in England?",
                     options: ["Battle of Bosworth Field", "Battle of Hastings", "Battle of Agincourt", "Battle of Waterloo"],
                     correct: 0
                 },
                 {
-                    question: "When was the Magna Carta signed?",
-                    options: ["1215", "1225", "1235", "1245"],
-                    correct: 0
+                    question: "In which year was the Magna Carta signed by King John of England?",
+                    options: ["1066", "1215", "1415", "1492"],
+                    correct: 1
                 },
                 {
-                    question: "Who was the last Pharaoh of Ancient Egypt?",
-                    options: ["Nefertiti", "Cleopatra VII", "Hatshepsut", "Tiye"],
+                    question: "Who was the last active Pharaoh of Ancient Egypt?",
+                    options: ["Nefertiti", "Cleopatra VII", "Hatshepsut", "Ramesses II"],
                     correct: 1
                 },
                 {
@@ -256,9 +302,9 @@ const quizData = {
                     correct: 2
                 },
                 {
-                    question: "Which year marked the fall of the Western Roman Empire?",
-                    options: ["476 CE", "486 CE", "496 CE", "506 CE"],
-                    correct: 0
+                    question: "The 'Fall of the Western Roman Empire' is traditionally dated to which year?",
+                    options: ["395 CE", "410 CE", "476 CE", "1453 CE"],
+                    correct: 2
                 }
             ]
         }
@@ -273,7 +319,7 @@ const quizData = {
                     correct: 2
                 },
                 {
-                    question: "Which is the largest continent?",
+                    question: "By land area, what is the largest continent?",
                     options: ["North America", "Africa", "Europe", "Asia"],
                     correct: 3
                 },
@@ -283,7 +329,7 @@ const quizData = {
                     correct: 1
                 },
                 {
-                    question: "Which country is known as the Land of the Rising Sun?",
+                    question: "Which country is known as the 'Land of the Rising Sun'?",
                     options: ["China", "Korea", "Japan", "Vietnam"],
                     correct: 2
                 },
@@ -295,7 +341,7 @@ const quizData = {
             ],
             medium: [
                 {
-                    question: "Which is the smallest country in the world?",
+                    question: "What is the smallest country in the world by area?",
                     options: ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
                     correct: 1
                 },
@@ -305,30 +351,30 @@ const quizData = {
                     correct: 1
                 },
                 {
-                    question: "Which desert is the largest in the world?",
-                    options: ["Gobi", "Arabian", "Sahara", "Antarctic"],
-                    correct: 3
+                    question: "Excluding polar regions, what is the largest hot desert in the world?",
+                    options: ["Gobi", "Arabian", "Sahara", "Kalahari"],
+                    correct: 2
                 },
                 {
-                    question: "On which continent is the Atacama Desert located?",
+                    question: "On which continent is the Atacama Desert, one of the driest places on Earth, located?",
                     options: ["Africa", "Asia", "South America", "North America"],
                     correct: 2
                 },
                 {
-                    question: "Which country has the most islands in the world?",
+                    question: "Which country has the most islands?",
                     options: ["Indonesia", "Japan", "Philippines", "Sweden"],
                     correct: 3
                 }
             ],
             hard: [
                 {
-                    question: "What is the deepest point in the ocean?",
-                    options: ["Mariana Trench", "Tonga Trench", "Philippine Trench", "Puerto Rico Trench"],
+                    question: "What is the deepest known point in the Earth's oceans?",
+                    options: ["Mariana Trench", "Tonga Trench", "Philippine Trench", "Kermadec Trench"],
                     correct: 0
                 },
                 {
-                    question: "Which country is located in all four hemispheres?",
-                    options: ["Brazil", "Kenya", "Kiribati", "France"],
+                    question: "Which island nation is located in all four hemispheres?",
+                    options: ["Brazil", "Kenya", "Kiribati", "Indonesia"],
                     correct: 2
                 },
                 {
@@ -342,7 +388,7 @@ const quizData = {
                     correct: 1
                 },
                 {
-                    question: "What is the largest lake by volume in the world?",
+                    question: "Which lake is the world's largest by volume?",
                     options: ["Caspian Sea", "Lake Superior", "Lake Baikal", "Lake Victoria"],
                     correct: 2
                 }
@@ -360,11 +406,11 @@ const quizData = {
                 },
                 {
                     question: "In which sport would you perform a slam dunk?",
-                    options: ["Football", "Basketball", "Tennis", "Golf"],
+                    options: ["Volleyball", "Basketball", "Tennis", "American Football"],
                     correct: 1
                 },
                 {
-                    question: "How many players are there in a standard soccer team?",
+                    question: "How many players are on a standard soccer team on the field at one time?",
                     options: ["9", "10", "11", "12"],
                     correct: 2
                 },
@@ -374,61 +420,61 @@ const quizData = {
                     correct: 1
                 },
                 {
-                    question: "What is the duration of a regular soccer match?",
-                    options: ["80 minutes", "85 minutes", "90 minutes", "95 minutes"],
+                    question: "What is the duration of a standard, regulation soccer match (excluding stoppage time)?",
+                    options: ["80 minutes", "60 minutes", "90 minutes", "120 minutes"],
                     correct: 2
                 }
             ],
             medium: [
                 {
-                    question: "Which country invented basketball?",
+                    question: "In which country was the sport of basketball invented?",
                     options: ["USA", "Canada", "England", "France"],
-                    correct: 1
+                    correct: 0
                 },
                 {
-                    question: "How many Olympic rings are there?",
+                    question: "How many interlocking rings are on the Olympic flag?",
                     options: ["4", "5", "6", "7"],
                     correct: 1
                 },
                 {
-                    question: "In which year were the first modern Olympics held?",
+                    question: "In which year were the first modern Olympic Games held?",
                     options: ["1886", "1896", "1906", "1916"],
                     correct: 1
                 },
                 {
-                    question: "What is the national sport of Japan?",
-                    options: ["Karate", "Judo", "Sumo", "Kendo"],
+                    question: "What is considered the national sport of Japan?",
+                    options: ["Karate", "Judo", "Sumo Wrestling", "Kendo"],
                     correct: 2
                 },
                 {
-                    question: "How many points is a touchdown worth in American football?",
+                    question: "How many points is a touchdown worth in American football (before the extra point attempt)?",
                     options: ["4", "5", "6", "7"],
                     correct: 2
                 }
             ],
             hard: [
                 {
-                    question: "Who holds the record for most Olympic medals?",
+                    question: "Who holds the record for the most Olympic medals won by an individual?",
                     options: ["Usain Bolt", "Michael Phelps", "Larisa Latynina", "Paavo Nurmi"],
                     correct: 1
                 },
                 {
-                    question: "Which tennis player has won the most Grand Slam titles?",
+                    question: "As of early 2024, which male tennis player holds the record for the most Grand Slam titles?",
                     options: ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Pete Sampras"],
                     correct: 2
                 },
                 {
                     question: "In which year was the first FIFA World Cup held?",
-                    options: ["1926", "1930", "1934", "1938"],
+                    options: ["1920", "1930", "1940", "1950"],
                     correct: 1
                 },
                 {
-                    question: "What is the longest running Formula 1 team?",
+                    question: "Which team is the oldest and most successful in Formula 1 history?",
                     options: ["McLaren", "Ferrari", "Mercedes", "Williams"],
                     correct: 1
                 },
                 {
-                    question: "Which country has won the most Cricket World Cups?",
+                    question: "Which country has won the most Men's Cricket World Cups?",
                     options: ["India", "West Indies", "England", "Australia"],
                     correct: 3
                 }
@@ -479,7 +525,7 @@ difficultyButtons.forEach(button => {
 backToCategoriesBtn.addEventListener('click', goToStart);
 nextBtn.addEventListener('click', nextQuestion);
 restartBtn.addEventListener('click', goToStart);
-retryBtn.addEventListener('click', () => selectCategory(currentCategory));
+retryBtn.addEventListener('click', () => showDifficultyScreen(currentCategory)); // Correctly goes to difficulty selection
 changeDifficultyBtn.addEventListener('click', () => showDifficultyScreen(currentCategory));
 
 function selectCategory(category) {
@@ -507,44 +553,52 @@ function startQuiz(difficulty) {
 }
 
 function showQuestion() {
-    const question = quizData[currentCategory].questions[currentDifficulty][currentQuestion];
-    questionText.textContent = question.question;
-    currentQuestionNum.textContent = currentQuestion + 1;
+    // Reset from previous question
     optionsContainer.innerHTML = '';
+    nextBtn.classList.add('hidden');
+    selectedOption = null;
+
+    const questionData = quizData[currentCategory].questions[currentDifficulty][currentQuestion];
+    questionText.textContent = questionData.question;
+    currentQuestionNum.textContent = currentQuestion + 1;
     
-    question.options.forEach((option, index) => {
+    questionData.options.forEach((option, index) => {
         const optionElement = document.createElement('div');
         optionElement.classList.add('option');
         optionElement.textContent = option;
-        optionElement.addEventListener('click', () => selectOption(index));
+        // Store the index in the element itself for easy checking
+        optionElement.dataset.index = index;
+        optionElement.addEventListener('click', () => selectOption(optionElement));
         optionsContainer.appendChild(optionElement);
     });
-    
-    nextBtn.classList.add('hidden');
-    selectedOption = null;
 }
 
-function selectOption(index) {
+function selectOption(selectedElement) {
+    // Prevent selecting another option after one has been chosen
     if (selectedOption !== null) return;
     
-    selectedOption = index;
+    const selectedIndex = parseInt(selectedElement.dataset.index);
+    selectedOption = selectedIndex; // Mark that an option has been selected
+    
     const options = optionsContainer.children;
-    const question = quizData[currentCategory].questions[currentDifficulty][currentQuestion];
+    const questionData = quizData[currentCategory].questions[currentDifficulty][currentQuestion];
+    const correctIndex = questionData.correct;
     
-    for (let option of options) {
-        option.classList.remove('selected');
-    }
-    
-    options[index].classList.add('selected');
-    
-    if (index === question.correct) {
-        options[index].classList.add('correct');
+    // Check if the selected answer is correct
+    if (selectedIndex === correctIndex) {
+        selectedElement.classList.add('correct');
         score++;
     } else {
-        options[index].classList.add('wrong');
-        options[question.correct].classList.add('correct');
+        selectedElement.classList.add('wrong');
+        // Highlight the correct answer if the user was wrong
+        options[correctIndex].classList.add('correct');
     }
     
+    // Disable all option buttons after a selection is made
+    for (let option of options) {
+        option.style.pointerEvents = 'none';
+    }
+
     nextBtn.classList.remove('hidden');
 }
 
@@ -570,5 +624,6 @@ function showResults() {
 function goToStart() {
     resultScreen.classList.add('hidden');
     difficultyScreen.classList.add('hidden');
+    questionScreen.classList.add('hidden');
     startScreen.classList.remove('hidden');
-} 
+}
