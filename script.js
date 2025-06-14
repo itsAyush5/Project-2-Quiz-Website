@@ -566,6 +566,92 @@ const quizData = {
                 }
             ]
         }
+    },
+    space: {
+        name: "Space",
+        questions: {
+            easy: [
+                {
+                    question: "In which year was Hubble Telescope launched ?",
+                    options: ["1982", "1987", "1999", "1990"],
+                    correct: 3
+                },
+                {
+                    question: "Which planet is called as Lord of Rings ?",
+                    options: ["Neptune", "Uranus", "Jupiter", "Saturn"],
+                    correct: 3
+                },
+                {
+                    question: "What is the temperature of Jupiter's Core ? (In degree Celcius)",
+                    options: ["23400", "45000", "24000", "56034"],
+                    correct: 2
+                },
+                {
+                    question: "How many operational Satellites orbit Earth",
+                    options: ["Goofy11", "Donald", "Pluto", "Minnie"],
+                    correct: 2
+                },
+                {
+                    question: "",
+                    options: ["The Beatles", "The Rolling Stones", "Queen", "Led Zeppelin"],
+                    correct: 2
+                }
+            ],
+            medium: [
+                {
+                    question: "",
+                    options: ["The Jazz Singer", "Metropolis", "Wings", "Sunrise"],
+                    correct: 2
+                },
+                {
+                    question: "",
+                    options: ["Steven Spielberg", "Martin Scorsese", "James Cameron", "Quentin Tarantino"],
+                    correct: 3
+                },
+                {
+                    question: "",
+                    options: ["Tetris", "Minecraft", "Grand Theft Auto V", "Wii Sports"],
+                    correct: 1
+                },
+                {
+                    question: "",
+                    options: ["'Could I BE any more...'", "'We were on a break!'", "'Oh. My. God.'", "'How you doin'?'"],
+                    correct: 3
+                },
+                {
+                    question: "",
+                    options: ["Elvis Presley", "Michael Jackson", "Prince", "James Brown"],
+                    correct: 1
+                }
+            ],
+            hard: [
+                {
+                    question: "",
+                    options: ["Pinocchio", "Bambi", "Snow White and the Seven Dwarfs", "Fantasia"],
+                    correct: 2
+                },
+                {
+                    question: "",
+                    options: ["Hans Zimmer", "John Williams", "Howard Shore", "Danny Elfman"],
+                    correct: 1
+                },
+                {
+                    question: "",
+                    options: ["Middle-earth", "Narnia", "Westeros", "Essos"],
+                    correct: 2
+                },
+                {
+                    question: "",
+                    options: ["The Daily Bugle", "The Gotham Gazette", "The Daily Planet", "The Central City Citizen"],
+                    correct: 2
+                },
+                {
+                    question: "",
+                    options: ["1995", "2001", "1999", "2003"],
+                    correct: 2
+                }
+            ]
+        }
     }
 };
 
